@@ -144,7 +144,6 @@
         for (let j = 0; j < this.rows().length; j++) {
           if (this._getFirstRowColumnIndexForMajorDiagonalOn(i, j) === majorDiagonalColumnIndexAtFirstRow && (this.rows()[i][j] === 1)) {
             count++;
-            console.log(count)
           }
         }
       }
